@@ -30,7 +30,25 @@ let myObj ={
  //}
    //console.log(typeof score)
   // console.log(typeof outsideTemp)
-   console.log(typeof heros)
+ //  console.log(typeof heros)
+
+ // ++++++++++++++++++++++++++++++++
+// Stack (Primitive ,Heap(Non-primitive)) 
+   let myYoutubename = "Md Arshad"
+   let anothername = myYoutubename
+    anothername= "chai or roti"
+   console.log(anothername)
+   console.log(myYoutubename)
+   let userOne ={
+       email:"use@google.com",
+       upi: "user@ybl",
+   }
+   let userTwo = userOne
+   userTwo.email ="mdarshad@google.com"
+   console.log(userTwo.email);
+
+   console.log(userOne.email);
+
 
 
 
